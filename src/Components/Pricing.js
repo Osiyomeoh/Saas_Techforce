@@ -14,7 +14,7 @@ function Pricing() {
                         <li>User-Friendly Dashboard</li>
                         <li>Robust Security</li>
                     </ul>
-                    <button>Choose Plan</button>
+                    <button ><a href="#contact">Choose Plan</a></button>
                 </div>
 
                 {/* Pro Plan */}
@@ -28,7 +28,7 @@ function Pricing() {
                         <li>Advanced Analytics</li>
                         <li>Cross-Platform Support</li>
                     </ul>
-                    <button>Choose Plan</button>
+                    <button ><a href="#contact">Choose Plan</a></button>
                 </div>
 
                 {/* Premium Plan */}
@@ -43,7 +43,7 @@ function Pricing() {
                         <li>Cross-Platform Support</li>
                         <li>24/7 Customer Support</li>
                     </ul>
-                    <button>Choose Plan</button>
+                    <button ><a href="#contact">Choose Plan</a></button>
                 </div>
             </div>
         </section>

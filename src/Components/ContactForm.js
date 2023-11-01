@@ -23,6 +23,7 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
     let isError = false;
     
     for (const key in formData) {
@@ -34,11 +35,18 @@ function ContactForm() {
         isError = true;
       }
     }
-
+  
     if (!isError) {
-      // Handle form submission
+      // Simulating saving to a temp JSON file by using localStorage
+      localStorage.setItem('formData', JSON.stringify(formData));
+      
+      // Issue an alert
+      alert('Form submitted successfully!');
+      console.log(JSON.parse(localStorage.getItem('formData')));
+
     }
   };
+  
 
   return (
     <section id="contact" style={{ backgroundColor: '#f0f4f8' }}>

@@ -15,8 +15,8 @@ function Header() {
           <a href="#contact">Contact</a>
         </div>
         <div className="actions">
-          <button className="sign-in-button">Sign In</button>
-          <button className="sign-up-button">Sign Up</button>
+          <button className="sign-up-button"><a href="#contact">Start Now</a></button>
+          {/* <button className="sign-up-button"><a href="#contact">Sign Up</a></button> */}
         </div>
       </nav>
 

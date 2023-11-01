@@ -23,7 +23,33 @@ header {
   box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
   width: 100%;
 }
+header a {
+  text-decoration: none;
+  color: inherit;  /* Default color of surrounding text */
+  padding: 5px 10px;  /* Padding around links for a larger clickable area */
+  transition: color 0.3s, background-color 0.3s;  /* Smooth transition for hover effects */
+}
 
+/* Hover effect: Change color and background */
+header a:hover {
+  color: white;  /* Text color when hovered */
+  background-color: #3498db;  /* Background color when hovered */
+}
+
+/* Optional: Effect for active link (clicked) */
+header a:active {
+  color: #3498db;
+  background-color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: inherit;  /* This ensures links take on the color of surrounding text by default */
+}
+
+/* Change color to blue only when link is active (being clicked) */
+a:active {
+  color: #3498db;
+}
 
 .logo {
   width: 60px;
